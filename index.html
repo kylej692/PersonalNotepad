@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Kyle's Notepad</title>
+                <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+                <script type="text/javascript" src="script.js"></script>
+                <link type="text/css" rel="stylesheet" href="style.css">
+        </head>
+        <body>
+                <header>
+                        <h1><center>Personal Notepad</center></h1>
+                </header>
+                <main>
+                        <notepad>
+                                <div id="note-title">
+                                                <input id="text-title" type="text" placeholder="Title">
+                                </div>
+                                <div id="note-body">
+                                        <textarea id="text-field" placeholder="Note"></textarea>
+                                </div>
+                        </notepad>
+                        <saved-notes>
+                                <div id='listed-notes'></div>
+                        </saved-notes>
+                        <button id="save">Save</button>
+                        <button id="new-note">New Note</button>
+                        <button id="delete-note" style="float: right;">Delete</button>
+                        <button id="edit-note" style="float: right;">Edit</button>
+                </main>
+                <footer>
+                        <h2>Colors</h2>   
+                                <div id="color-container">        
+                                        <div class="color-box orange"></div>
+                                        <div class="color-box purple"></div>   
+                                        <div class="color-box blue"></div>
+                                        <div class="color-box green"></div>  
+                                        <div class="color-box red"></div>
+                                        <div class="color-box yellow"></div> 
+                                        <button id="default-color">Default</button>  
+                                </div>       
+                </footer>
+        </body>
+</html>
