@@ -1,0 +1,129 @@
+body {
+    background-color: #B6B6B6;
+    margin-left: 3%;
+}
+notepad {
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 5px;
+    overflow: scroll;
+    height: 500px;
+    width: 50%;
+    margin-top: 0;
+}
+
+saved-notes {
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 5px;
+    overflow: scroll;
+    height: 500px;
+    width: 45%;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+#text-field {
+    font-size: 16px;
+    height: 500px;
+    width: 929px;
+}
+
+#text-title {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 931px;
+}
+button {
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+  }
+#save {
+    background-color: green;
+}
+
+#delete-note {
+    margin-right: 2.5%;
+    background-color: red;
+}
+
+#edit-note {
+    margin-right: 0.5%;
+    background-color: grey;
+}
+
+#new-note {
+    background-color: grey;
+}
+
+#listed-notes:nth-child(odd):hover {
+    cursor: pointer;
+}
+
+.saved-title {
+    font-weight: 550;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.saved-text {
+    font-size: 15px;
+    border-bottom: solid 1px black;
+    padding: 10px 10px 5px 5px;
+}
+
+.saved-date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    border-top: dotted 1px black;
+    border-bottom: dotted 1px black;
+    padding: 1px 5px;
+}  
+
+#color-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-box {
+    height: 20px;
+    width: 20px;
+    border: solid 2px black;
+    margin: 3pt;
+}
+
+#default-color {
+    background-color: #727272;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 3pt;
+}
+
+.orange {
+    background-color: #FF9821;
+}
+
+.purple {
+    background-color: #DB49FF;
+}
+
+.blue {
+    background-color: #49B0FF;
+}
+
+.green {
+    background-color: #04C111;
+}
+
+.red {
+    background-color: #FF4949;
+}
+
+.yellow {
+    background-color: #FFFA49;
+}
